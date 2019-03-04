@@ -1,0 +1,1154 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "characters",
+      "attributes": {
+        "name": "Aegon I Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Aegon_I_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "2",
+      "type": "characters",
+      "attributes": {
+        "name": "Aegon II Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Aegon_II_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "3",
+      "type": "characters",
+      "attributes": {
+        "name": "Aegon IV Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Aegon_IV_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "4",
+      "type": "characters",
+      "attributes": {
+        "name": "Aegon V Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Aegon_V_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "5",
+      "type": "characters",
+      "attributes": {
+        "name": "Aerys II Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Aerys_II_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "6",
+      "type": "characters",
+      "attributes": {
+        "name": "Asha Greyjoy",
+        "house": "House Greyjoy",
+        "male": false,
+        "culture": "Ironborn",
+        "image-link": "/misc/images/characters/Asha_Greyjoy.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "7",
+      "type": "characters",
+      "attributes": {
+        "name": "Arya Stark",
+        "house": "House Stark",
+        "male": false,
+        "culture": "Northmen",
+        "image-link": "/misc/images/characters/Arya_Stark.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "8",
+      "type": "characters",
+      "attributes": {
+        "name": "Balon Greyjoy",
+        "house": "House Greyjoy",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Balon_Greyjoy.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "9",
+      "type": "characters",
+      "attributes": {
+        "name": "Barristan Selmy",
+        "house": "House Selmy",
+        "male": true,
+        "culture": "Westeros",
+        "image-link": "/misc/images/characters/Barristan_Selmy.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "10",
+      "type": "characters",
+      "attributes": {
+        "name": "Bran Stark",
+        "house": "House Stark",
+        "male": true,
+        "culture": "Northmen",
+        "image-link": "/misc/images/characters/Bran_Stark.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "11",
+      "type": "characters",
+      "attributes": {
+        "name": "Brienne of Tarth",
+        "house": "House Tarth",
+        "male": false,
+        "culture": null,
+        "image-link": "/misc/images/characters/Brienne_of_Tarth.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "12",
+      "type": "characters",
+      "attributes": {
+        "name": "Cersei Lannister",
+        "house": "House Lannister",
+        "male": false,
+        "culture": "Westerlands",
+        "image-link": "/misc/images/characters/Cersei_Lannister.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "13",
+      "type": "characters",
+      "attributes": {
+        "name": "Daenerys Targaryen",
+        "house": "House Targaryen",
+        "male": false,
+        "culture": "Valyrian",
+        "image-link": "/misc/images/characters/Daenerys_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "14",
+      "type": "characters",
+      "attributes": {
+        "name": "Daeron II Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Daeron_II_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "15",
+      "type": "characters",
+      "attributes": {
+        "name": "Davos Seaworth",
+        "house": "House Seaworth",
+        "male": true,
+        "culture": "Westeros",
+        "image-link": "/misc/images/characters/Davos_Seaworth.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "16",
+      "type": "characters",
+      "attributes": {
+        "name": "Eddard Stark",
+        "house": "House Stark",
+        "male": true,
+        "culture": "Northmen",
+        "image-link": "/misc/images/characters/Eddard_Stark.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "17",
+      "type": "characters",
+      "attributes": {
+        "name": "Euron Greyjoy",
+        "house": "House Greyjoy",
+        "male": true,
+        "culture": "Ironborn",
+        "image-link": "/misc/images/characters/Euron_Greyjoy.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "18",
+      "type": "characters",
+      "attributes": {
+        "name": "Gregor Clegane",
+        "house": "House Clegane",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Gregor_Clegane.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "19",
+      "type": "characters",
+      "attributes": {
+        "name": "Jaime Lannister",
+        "house": "House Lannister",
+        "male": true,
+        "culture": "Westerlands",
+        "image-link": "/misc/images/characters/Jaime_Lannister.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "20",
+      "type": "characters",
+      "attributes": {
+        "name": "Joffrey Baratheon",
+        "house": "House Baratheon of King's Landing",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Joffrey_Baratheon.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "21",
+      "type": "characters",
+      "attributes": {
+        "name": "Jon Connington",
+        "house": "House Connington",
+        "male": true,
+        "culture": "Stormlands",
+        "image-link": "/misc/images/characters/Jon_Connington.png"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "22",
+      "type": "characters",
+      "attributes": {
+        "name": "Jon Arryn",
+        "house": "House Arryn",
+        "male": true,
+        "culture": "Valemen",
+        "image-link": "/misc/images/characters/Jon_Arryn.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "23",
+      "type": "characters",
+      "attributes": {
+        "name": "Jon Snow",
+        "house": "House Stark",
+        "male": true,
+        "culture": "Northmen",
+        "image-link": "/misc/images/characters/Jon_Snow.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "24",
+      "type": "characters",
+      "attributes": {
+        "name": "Jorah Mormont",
+        "house": "House Mormont",
+        "male": true,
+        "culture": "Northmen",
+        "image-link": "/misc/images/characters/Jorah_Mormont.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "25",
+      "type": "characters",
+      "attributes": {
+        "name": "Kevan Lannister",
+        "house": "House Lannister",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Kevan_Lannister.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "26",
+      "type": "characters",
+      "attributes": {
+        "name": "Loras Tyrell",
+        "house": "House Tyrell",
+        "male": true,
+        "culture": "Reach",
+        "image-link": "/misc/images/characters/Loras_Tyrell.png"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "27",
+      "type": "characters",
+      "attributes": {
+        "name": "Mace Tyrell",
+        "house": "House Tyrell",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Mace_Tyrell.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "28",
+      "type": "characters",
+      "attributes": {
+        "name": "Maegor I Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Maegor_I_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "29",
+      "type": "characters",
+      "attributes": {
+        "name": "Mance Rayder",
+        "house": null,
+        "male": true,
+        "culture": "Free folk",
+        "image-link": "/misc/images/characters/Mance_Rayder.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "30",
+      "type": "characters",
+      "attributes": {
+        "name": "Margaery Tyrell",
+        "house": "House Tyrell",
+        "male": false,
+        "culture": "Reach",
+        "image-link": "/misc/images/characters/Margaery_Tyrell.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "31",
+      "type": "characters",
+      "attributes": {
+        "name": "Melisandre",
+        "house": "R'hllor",
+        "male": false,
+        "culture": "Asshai",
+        "image-link": "/misc/images/characters/Melisandre.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "32",
+      "type": "characters",
+      "attributes": {
+        "name": "Oberyn Martell",
+        "house": "House Martell",
+        "male": true,
+        "culture": "Dornishmen",
+        "image-link": "/misc/images/characters/Oberyn_Martell.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "33",
+      "type": "characters",
+      "attributes": {
+        "name": "Petyr Baelish",
+        "house": "House Baelish",
+        "male": true,
+        "culture": "Valemen",
+        "image-link": "/misc/images/characters/Petyr_Baelish.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "34",
+      "type": "characters",
+      "attributes": {
+        "name": "Renly Baratheon",
+        "house": "House Baratheon",
+        "male": true,
+        "culture": "Stormlands",
+        "image-link": "/misc/images/characters/Renly_Baratheon.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "35",
+      "type": "characters",
+      "attributes": {
+        "name": "Rhaegar Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": "Valyrian",
+        "image-link": "/misc/images/characters/Rhaegar_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "36",
+      "type": "characters",
+      "attributes": {
+        "name": "Robb Stark",
+        "house": "House Stark",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Robb_Stark.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "37",
+      "type": "characters",
+      "attributes": {
+        "name": "Robert Baratheon",
+        "house": "House Baratheon of King's Landing",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Robert_Baratheon.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "38",
+      "type": "characters",
+      "attributes": {
+        "name": "Roose Bolton",
+        "house": "House Bolton",
+        "male": true,
+        "culture": "Northmen",
+        "image-link": "/misc/images/characters/Roose_Bolton.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "39",
+      "type": "characters",
+      "attributes": {
+        "name": "Samwell Tarly",
+        "house": "Night's Watch",
+        "male": true,
+        "culture": "Westeros",
+        "image-link": "/misc/images/characters/Samwell_Tarly.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "40",
+      "type": "characters",
+      "attributes": {
+        "name": "Sandor Clegane",
+        "house": "House Clegane",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Sandor_Clegane.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "41",
+      "type": "characters",
+      "attributes": {
+        "name": "Sansa Stark",
+        "house": "House Stark",
+        "male": false,
+        "culture": "Northmen",
+        "image-link": "/misc/images/characters/Sansa_Stark.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "42",
+      "type": "characters",
+      "attributes": {
+        "name": "Stannis Baratheon",
+        "house": "House Baratheon of Dragonstone",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Stannis_Baratheon.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "43",
+      "type": "characters",
+      "attributes": {
+        "name": "Theon Greyjoy",
+        "house": "House Greyjoy",
+        "male": true,
+        "culture": "Ironmen",
+        "image-link": "/misc/images/characters/Theon_Greyjoy.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "44",
+      "type": "characters",
+      "attributes": {
+        "name": "Tommen Baratheon",
+        "house": null,
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Tommen_Baratheon.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "45",
+      "type": "characters",
+      "attributes": {
+        "name": "Tyrion Lannister",
+        "house": "House Lannister",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Tyrion_Lannister.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "46",
+      "type": "characters",
+      "attributes": {
+        "name": "Tywin Lannister",
+        "house": "House Lannister",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Tywin_Lannister.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "47",
+      "type": "characters",
+      "attributes": {
+        "name": "Varys",
+        "house": null,
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Varys.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "48",
+      "type": "characters",
+      "attributes": {
+        "name": "Victarion Greyjoy",
+        "house": "House Greyjoy",
+        "male": true,
+        "culture": "Ironborn",
+        "image-link": "/misc/images/characters/Victarion_Greyjoy.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "49",
+      "type": "characters",
+      "attributes": {
+        "name": "Viserys I Targaryen",
+        "house": "House Targaryen",
+        "male": true,
+        "culture": null,
+        "image-link": "/misc/images/characters/Viserys_I_Targaryen.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    },
+    {
+      "id": "50",
+      "type": "characters",
+      "attributes": {
+        "name": "Walder Frey",
+        "house": "House Frey",
+        "male": true,
+        "culture": "Rivermen",
+        "image-link": "/misc/images/characters/Walder_Frey.jpeg"
+      },
+      "relationships": {
+        "likes": {
+          "data": [
+
+          ]
+        },
+        "users": {
+          "data": [
+
+          ]
+        }
+      }
+    }
+  ]
+}

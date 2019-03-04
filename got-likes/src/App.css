@@ -31,3 +31,84 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  margin-top: 10px;
+  list-style: none;
+  width: 100%;
+  color: white;
+  border-radius: 20px;
+}
+
+.menu_items li {
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  float: right;
+  font-size: 24px;
+}
+
+body {
+  font-family: 'Cinzel', serif;
+  background-color: #121212;
+}
+
+.gotlikes {
+  /* text-align: center; */
+  letter-spacing: 5px;
+  margin: auto 0;
+  float: left;
+}
+
+.card {
+  width: 700px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+}
+
+.home {
+  text-align: center;
+}
+
+.home img {
+  width: 100%;
+  margin-top: -20px;
+}
+
+.item img {
+  width: 100%;
+}
+
+
+.navbar li {
+  display: flex;
+}
+
+.character_container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  border: 5px solid white;
+  border-radius: 1%;
+}
+
+.quotes {
+  padding: 50px;
+  color: #eee9e9;
+  font-size: 24px;
+}
+
+footer {
+  display: flex;
+  font-size: 16px;
+  color: #eee9e9;
+  padding: 15px;
+  margin-top: 30px;
+  float: right;
+}
