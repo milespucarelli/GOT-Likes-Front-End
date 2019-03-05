@@ -6,7 +6,7 @@ class CharacterCard extends Component {
     console.log("hi from CharacterCard", this.props)
     return (
       <div class="card">
-        <img class="card-img-top" src={require(`./clarke.jpg`)} alt="Card image" />
+        <img class="card-img-top" src={require(`./got_images/${attributes.name}.jpg`)} alt="Card image" />
         <div class="card-body">
         <h4 class="card-title">{attributes.name}</h4>
         <p class="card-text">{attributes.gender}</p>
