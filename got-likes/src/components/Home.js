@@ -7,12 +7,6 @@ const Home = () => {
       <p className="quotes"> “When you play a game of thrones you win or you die.” </p>
       <div className="container">
   <div id="myCarousel" className="carousel slide" data-ride="carousel">
-    <ol className="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
     <div className="carousel-inner">
       <div className="item active">
         <img src={require(`./images/jaime.jpeg`)} alt="🤪" />
