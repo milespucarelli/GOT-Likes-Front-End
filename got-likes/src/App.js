@@ -14,20 +14,21 @@ class App extends Component {
     return (
       <div id="app">
         <NavBar />
-        <Switch>
-          <Route path='/map' component={Westeros} />
-          <Route path='/regions/north' render={() => <Region name="The North" />} />
-          <Route path='/regions/westerlands' render={() => <Region name="The Westerlands" />} />
-          <Route path='/regions/dorne' render={() => <Region name="Dorne" />} />
-          <Route path='/regions/reach' render={() => <Region name="The Reach" />} />
-          <Route path='/regions/vale' render={() => <Region name="The Vale" />} />
-          <Route path='/regions/crownlands' render={() => <Region name="The Crownlands" />} />
-          <Route path='/regions/stormlands' render={() => <Region name="The Stormlands" />} />
-          <Route path='/regions/neck' render={() => <Region name="The Neck" />} />
-          <Route path='/regions/iron_islands' render={() => <Region name="Iron Islands" />} />
-          <Route path='/regions/beyond_the_wall' render={() => <Region name="Beyond the Wall" />} />
-          <Route path="/" component={Home} />
-        </Switch>
+        <div id="map">
+          <Switch>
+            <Route path='/regions/north' render={() => <Region name="The North" />} />
+            <Route path='/regions/westerlands' render={() => <Region name="The Westerlands" />} />
+            <Route path='/regions/dorne' render={() => <Region name="Dorne" />} />
+            <Route path='/regions/reach' render={() => <Region name="The Reach" />} />
+            <Route path='/regions/vale' render={() => <Region name="The Vale" />} />
+            <Route path='/regions/crownlands' render={() => <Region name="The Crownlands" />} />
+            <Route path='/regions/stormlands' render={() => <Region name="The Stormlands" />} />
+            <Route path='/regions/neck' render={() => <Region name="The Neck" />} />
+            <Route path='/regions/iron_islands' render={() => <Region name="Iron Islands" />} />
+            <Route path='/regions/beyond_the_wall' render={() => <Region name="Beyond the Wall" />} />
+            <Route path="/" component={Home} />
+          </Switch>
+        </div>
         <Footer />
       </div>
     );

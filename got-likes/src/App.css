@@ -85,6 +85,10 @@ body {
   margin: 10%;
 }
 
+.card-body {
+  opacity: 0.75;
+}
+
 .card button {
   border: none;
 }
@@ -101,7 +105,6 @@ body {
 .item img {
   width: 100%;
 }
-
 
 .navbar li {
   display: flex;
@@ -128,7 +131,13 @@ body {
   color: white;
 }
 
-.region {
+#region {
+  grid-column: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.region-name {
     text-align: center;
     font-size: 4em;
     color: white;
@@ -143,12 +152,14 @@ body {
 }
 
 .house {
-  color: white;
-  font-size: 14px;
+  color: black;
+  font-size: 10px;
   padding: 5%;
   border: 1px solid white;
   width: 80%;
   margin: 10%;
+  background-color: white;
+  opacity: 0.75;
 }
 
 .house ul {
@@ -171,6 +182,8 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("https://www.moviedeskback.com/wp-content/uploads/2012/05/Game-of-Thrones-large-map.jpg");
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .split {

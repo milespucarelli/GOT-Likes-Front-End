@@ -36,8 +36,8 @@ class Region extends Component {
 
   render() {
     return (
-      <div>
-        <h1 className="region">{this.props.name}</h1>
+      <div id="region">
+        <h1 className="region-name">{this.props.name}</h1>
         <div className="split">
           <HouseContainer houses={this.state.houses} clickHandler={this.houseClickHandler} />
           <CharacterProfile characters={this.state.characters}/>
