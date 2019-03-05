@@ -1,3 +1,20 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
@@ -111,4 +128,12 @@ footer {
   padding: 15px;
   margin-top: 30px;
   float: right;
+}
+
+#map {
+  height: 100%;
+  margin-left: 10%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("https://www.moviedeskback.com/wp-content/uploads/2012/05/Game-of-Thrones-large-map.jpg");
 }
