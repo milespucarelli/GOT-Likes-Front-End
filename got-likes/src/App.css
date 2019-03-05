@@ -49,20 +49,21 @@ body {
   }
 }
 
-.navbar {
-  margin-top: 10px;
+.nav_bar {
   list-style: none;
   width: 100%;
   color: white;
-  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  background-color: #232323;
+  border-radius: 10px;
+  margin: 5px 5px 50px 5px;
 }
 
-.menu_items li {
-  padding: 5px;
-  margin-left: 100px;
-  margin-right: 100px;
-  float: right;
-  font-size: 24px;
+.nav_bar li {
+  font-size: 3em;
+  margin: 3%;
 }
 
 body {
@@ -78,9 +79,10 @@ body {
 }
 
 .card {
-  width: 700px;
+  width: 70%;
   text-align: center;
   font-size: 18px;
+  margin: 10%;
 }
 
 .card button {
@@ -121,6 +123,38 @@ body {
   font-size: 24px;
 }
 
+.house_name {
+  font-size: 16px;
+  color: white;
+}
+
+.region {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    text-decoration: underline;
+}
+
+.houseName {
+  text-align: center;
+  color: white;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.house {
+  color: white;
+  font-size: 14px;
+  padding: 5%;
+  border: 1px solid white;
+  width: 80%;
+  margin: 10%;
+}
+
+.house ul {
+  list-style-type: none;
+}
+
 footer {
   display: flex;
   font-size: 16px;
@@ -130,10 +164,24 @@ footer {
   float: right;
 }
 
+
 #map {
   height: 100%;
   margin-left: 10%;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("https://www.moviedeskback.com/wp-content/uploads/2012/05/Game-of-Thrones-large-map.jpg");
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#house-container {
+  grid-column: 1;
+}
+
+#characters {
+  grid-column: 2;
 }
