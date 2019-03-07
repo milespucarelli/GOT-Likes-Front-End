@@ -7,7 +7,7 @@ class Region extends Component {
   state = {
     houses: [],
     currentHouse: "",
-    characters: []
+    filteredCharacters: []
   }
 
   componentDidMount = () => {
@@ -21,15 +21,10 @@ class Region extends Component {
   }
 
   houseClickHandler = houseName => {
-    console.log("ayyyyy", houseName)
-    fetch(`http://localhost:3000/api/v1/characters`)
-    .then(res => res.json())
-    .then(characters => {
-      this.setState({
-        currentHouse: houseName,
-        characters: characters.data.filter(character => {
-          return character["attributes"]["house"] === houseName
-        })
+    this.setState({
+      currentHouse: houseName,
+      filteredCharacters: this.props.characters.data.filter(character => {
+        return character["attributes"]["house"] === houseName
       })
     })
   }
@@ -40,7 +35,7 @@ class Region extends Component {
         <h1 className="region-name">{this.props.name}</h1>
         <div className="split">
           <HouseContainer houses={this.state.houses} clickHandler={this.houseClickHandler} />
-          <CharacterProfile characters={this.state.characters}/>
+          <CharacterProfile characters={this.state.filteredCharacters}/>
         </div>
       </div>
     )

@@ -176,14 +176,33 @@ footer {
 }
 
 
+#map, #region-container {
+  position: absolute;
+}
+
 #map {
   height: 100%;
-  margin-left: 10%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("https://www.moviedeskback.com/wp-content/uploads/2012/05/Game-of-Thrones-large-map.jpg");
+  width: 100%;
+}
+
+#region-container {
+  height: 50%;
+  width: 50%;
+  left: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+#map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#region {
+  grid-column: 1;
 }
 
 .split {
