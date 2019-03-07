@@ -5,14 +5,14 @@ class CharacterCard extends Component {
     const { attributes } = this.props.character
     console.log("hi from CharacterCard", this.props)
     return (
-      <div class="card">
-        <img class="card-img-top" src={require(`./got_images/${attributes.name}.jpg`)} alt="Card image" />
-        <div class="card-body">
-        <h4 class="card-title">{attributes.name}</h4>
-        <p class="card-text">{attributes.gender}</p>
-        <p class="card-text">{attributes["played-by"]}</p>
+      <div className="card">
+        <img className="card-img-top" src={require(`./got_images/${attributes.name}.jpg`)} alt="Card image" />
+        <div className="card-body">
+        <h4 className="card-title">{attributes.name}</h4>
+        <p className="card-text">{attributes.gender}</p>
+        <p className="card-text">{attributes["played-by"]}</p>
         <button>💔</button>
-        <a href="#" class="btn btn-primary">See Profile</a>
+        <a href="#" className="btn btn-primary">See Profile</a>
         <button>❤️</button>
         </div>
       </div>

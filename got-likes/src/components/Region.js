@@ -4,6 +4,7 @@ import HouseContainer from "./HouseContainer"
 
 // inside of Region there are two options, HouseContainer and CharacterProfile
 class Region extends Component {
+
   state = {
     houses: [],
     currentHouse: "",

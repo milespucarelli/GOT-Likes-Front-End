@@ -136,6 +136,7 @@ body {
 
 .house ul {
   list-style-type: none;
+  color: white;
 }
 
 footer {
@@ -158,4 +159,32 @@ footer {
 
 #characters {
   grid-column: 2;
+}
+
+a {
+  color: white;
+}
+
+.login {
+  margin: 0 auto;
+  margin-top: 10%;
+  background-color: #232323;
+  padding: 50px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  border: 1px solid white;
+  width: 25%;
+}
+
+.login input {
+  margin: 5%;
+  background-color: #232323;
+  width: 80%;
+}
+
+.login button {
+  margin-top: 5%;
+  border-radius: 2%;
+  background-color: #232323;
 }
