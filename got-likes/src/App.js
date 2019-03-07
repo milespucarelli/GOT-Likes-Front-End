@@ -3,9 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar";
 import Region from "./components/Region";
-import { Route, Switch } from "react-router-dom";
+import {Route, Switch, Redirect } from "react-router-dom";
 import Home from "./components/Home";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+import LoginForm from './components/LoginForm';
 import Map from './components/Map'
 
 class App extends Component {
@@ -23,10 +26,40 @@ class App extends Component {
     })
   }
 
+  state = {
+    user: {},
+  }
+
+  loggingIn = userObj => {
+    fetch("http://localhost:3000/api/v1/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        accepts: "application/json"
+      },
+      body: JSON.stringify({
+        user: userObj
+      })
+    })
+    .then(res => res.json())
+    .then(data => {
+      if(data.message) {
+        return <Redirect to="/login" />
+      } else {
+        localStorage.setItem("token", data.jwt);
+        this.setState({user: data.user}, console.log("This is the data at login", data))
+      }
+    })
+  }
+
   render() {
+    if (Object.keys(this.state.user).length > 0) {
+        return <Redirect to="/" />
+    }
     return (
       <div id="app">
         <NavBar />
+        <LoginForm />
           <Switch>
             <Route path="/regions" render={() => {
               return (
@@ -48,6 +81,8 @@ class App extends Component {
                   </div>
                 </div>
               )}} />
+            <Route path="/signup" component={SignUp} />
+            <Route path="/login" render={() => <Login loggingIn={this.loggingIn}/>} />
             <Route path="/" component={Home} />
           </Switch>
         <Footer />
