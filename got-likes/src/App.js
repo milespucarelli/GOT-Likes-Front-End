@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
+import Westeros from './components/Westeros'
 
 
 class App extends Component {
@@ -44,9 +45,10 @@ class App extends Component {
         return <Redirect to="/" />
     }
     return (
-      <div>
+      <div id="app">
         <NavBar />
         <Switch>
+          <Route path='/map' component={Westeros} />
           <Route path='/regions/north' render={() => <Region name="The North" />} />
           <Route path='/regions/westerlands' render={() => <Region name="The Westerlands" />} />
           <Route path='/regions/dorne' render={() => <Region name="Dorne" />} />
