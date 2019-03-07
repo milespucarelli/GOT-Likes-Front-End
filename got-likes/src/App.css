@@ -214,3 +214,19 @@ a {
   border-radius: 2%;
   background-color: #232323;
 }
+
+.login_div {
+  color: white;
+  display: flex;
+  width: 15%;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  float: right;
+}
+
+.login_div li {
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 auto;
+}

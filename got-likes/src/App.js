@@ -8,13 +8,14 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
-import Westeros from './components/Westeros'
+import Westeros from './components/Westeros';
+import LoginForm from './components/LoginForm';
 
 
 class App extends Component {
 
   state = {
-    user: {}
+    user: {},
   }
 
   loggingIn = userObj => {
@@ -29,13 +30,12 @@ class App extends Component {
       })
     })
     .then(res => res.json())
-    .then(user => {
-      if(user.message) {
+    .then(data => {
+      if(data.message) {
         return <Redirect to="/login" />
       } else {
-        localStorage.setItem("token", user.jwt);
-        this.setState({user})
-
+        localStorage.setItem("token", data.jwt);
+        this.setState({user: data.user}, console.log("This is the data at login", data))
       }
     })
   }
@@ -47,6 +47,7 @@ class App extends Component {
     return (
       <div id="app">
         <NavBar />
+        <LoginForm />
         <Switch>
           <Route path='/map' component={Westeros} />
           <Route path='/regions/north' render={() => <Region name="The North" />} />
