@@ -164,7 +164,7 @@ body {
 
 .house ul {
   list-style-type: none;
-  color: white;
+  color: black;
 }
 
 footer {
@@ -189,9 +189,9 @@ footer {
 #region-container {
   height: 50%;
   width: 50%;
-  left: 50%;
+  left: 35%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 4fr 2fr;
 }
 
 #map-container {

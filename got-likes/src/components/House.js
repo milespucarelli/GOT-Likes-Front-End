@@ -5,12 +5,10 @@ class House extends Component {
     let {name, coatOfArms, words, seats, clickHandler} = this.props
     return (
       <div className="house" onClick={() => clickHandler(name) } >
-        <h3>{this.props.name}</h3>
-        <ul>
-          <li>Coat Of Arms: {coatOfArms}</li>
-          <li>Words: {words}</li>
-          <li>Seats: {seats.join(', ')}</li>
-        </ul>
+        <h3>{name}</h3>
+        <p>Coat Of Arms: <br/> {coatOfArms}</p>
+        <p>Words: <br/> {words}</p>
+        <p>Seats: <br/> {seats.join(', ')}</p>
       </div>
     )
   }
