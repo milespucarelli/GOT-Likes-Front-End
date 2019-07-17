@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "apidoc": "^0.17.7",
+    "esm": "^3.2.25",
     "fsevents": "^2.0.7",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
